@@ -14,11 +14,17 @@ public class UserLogInController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	
+	/* 
+	 * Log In Checker
+	 */
 		String uId = request.getParameter("  ") ;
 		String uPass = request.getParameter("  ");
 		UserCheckLogBean log = new UserCheckLogBean();
 		log.setUserId(uId);
 		log.setUserPassword(uPass);
+		
+		
 		
 	}
 
