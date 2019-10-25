@@ -18,13 +18,13 @@ public class DBConnection {
 			
 			e.printStackTrace();
 		}
-		
-		
+
 		return con;
 		
 	}
 	public static void main(String[] args) {
-
+	
+	// Checking For Establishing Connecting
 		if(getConnect() != null)
 		{
 			System.out.println("Jay Jagannath ::::");
