@@ -4,16 +4,16 @@
  * 
  */
 package com.CODEX.Bean;
-public class UserCheckLogBean {
-	private String userId;
+public class UserLogBean {
+	private int userId;
 	private String UserPassword;
 
-	public String getUserId() {
+	public int getUserId() {
 		return userId;
 	}
 
-	public void setUserId(String userId) {
-		this.userId = userId;
+	public void setUserId(int uId) {
+		this.userId = uId;
 	}
 
 	public String getUserPassword() {
